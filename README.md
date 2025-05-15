@@ -1,1 +1,164 @@
 # DhomeWebSite
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DHOME di D’Agostino Fabio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.85);
+      padding: 60px 20px;
+      min-height: 100vh;
+      animation: fadeIn 2s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    /* Estilo específico para "DHOME" */
+    .dhome {
+      font-family: 'Georgia', serif; /* Fuente elegante */
+      font-size: 4em;               /* Más grande */
+      font-weight: bold;
+      color: #00bcd4;               /* Azul brillante para destacar */
+    }
+
+    .presentation {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 40px;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .info {
+      text-align: center;
+      margin-bottom: 40px;
+      line-height: 1.6;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .service {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 0 10px #000;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      margin-top: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .social {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .social a {
+      margin: 0 10px;
+      color: #00bcd4;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1><span class="dhome">DHOME</span> di D’Agostino Fabio</h1>
+
+    <div class="presentation">
+      <p>
+        DHOME di D’Agostino Fabio è un’impresa specializzata in ristrutturazioni edili a Roma, con anni di esperienza nel settore.
+        Offriamo soluzioni personalizzate e materiali di alta qualità per garantire risultati duraturi e soddisfazione del cliente.
+        La nostra priorità è trasformare ogni ambiente in uno spazio funzionale, sicuro ed esteticamente impeccabile.
+      </p>
+    </div>
+
+    <div class="info">
+      <p>📍 Via del Podere Zara N 172 - 00168 Roma (RM)</p>
+      <p>📞 392/6293069 - 388/9738578</p>
+      <p>📧 dhomerestauri@gmail.com</p>
+      <p>🧾 C.F. DGSFBA86P29H501X - P.IVA 13600051000</p>
+    </div>
+
+    <h2>Servizi Offerti</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Ristrutturazioni Complete</h3>
+        <p>Rinnovamento professionale di interni ed esterni con materiali di alta qualità.</p>
+      </div>
+      <div class="service">
+        <h3>Imbiancature & Decorazioni</h3>
+        <p>Finiture eleganti, pitture decorative e trattamenti per pareti moderne.</p>
+      </div>
+      <div class="service">
+        <h3>Manutenzione Edile</h3>
+        <p>Interventi rapidi e precisi per la cura della tua casa o attività commerciale.</p>
+      </div>
+    </div>
+
+    <h2>Galleria</h2>
+    <div class="gallery">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Progetto 1">
+      <img src="https://images.unsplash.com/photo-1586105251261-72a756497a12" alt="Progetto 2">
+      <img src="https://images.unsplash.com/photo-1599423300746-b62533397364" alt="Progetto 3">
+      <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c" alt="Progetto 4">
+      <img src="https://images.unsplash.com/photo-1586105251261-72a756497a12" alt="Progetto 5">
+      <img src="https://images.unsplash.com/photo-1599423300746-b62533397364" alt="Progetto 6">
+      <!-- Imagen de Instagram añadida manualmente -->
+      <img src="https://i.imgur.com/qHdHLZV.jpg" alt="Progetto Instagram">
+    </div>
+
+    <div class="social">
+      <h3>Seguici su</h3>
+      <a href="https://www.facebook.com/search/top?q=D%20HOME%20restauri%20edili" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/dhomerestauri" target="_blank">Instagram</a> |
+      <a href="https://www.pinterest.com/search/pins/?q=Dhome%20restauri" target="_blank">Pinterest</a>
+    </div>
+
+    <footer>
+      © 2025 DHOME di D’Agostino Fabio. Tutti i diritti riservati.
+    </footer>
+  </div>
+</body>
+</html>
